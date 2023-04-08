@@ -28,6 +28,20 @@
 //     return 0;
 // }
 
+//----------------------
+
+// int main()
+// {
+//     int a,b;
+//     scanf("%d %d",&a,&b);
+
+//     if(a%b==0)  printf("Multiples\n");
+//     else if(b%a==0)  printf("Multiples\n");
+//     else printf("No Multiples\n");
+
+//     return 0;
+// }
+
 // cf problem
 // N. Char
 
@@ -104,20 +118,20 @@
 // }
 
 //K. Max and Min
-#include<stdio.h>
-int main()
-{
-    int a,b,c;
-    scanf("%d %d %d",&a,&b,&c);
+// #include<stdio.h>
+// int main()
+// {
+//     int a,b,c;
+//     scanf("%d %d %d",&a,&b,&c);
 
-    if(a<b && a<c) printf("%d ",a);
-    else if(b<c) printf("%d ",b);
-    else printf("%d ",c);
+//     if(a<b && a<c) printf("%d ",a);
+//     else if(b<c) printf("%d ",b);
+//     else printf("%d ",c);
 
     
-    if(a>b && a>c) printf("%d\n",a);
-    else if(b>c) printf("%d\n",b);
-    else printf("%d\n",c);
+//     if(a>b && a>c) printf("%d\n",a);
+//     else if(b>c) printf("%d\n",b);
+//     else printf("%d\n",c);
 
-    return 0;
-}
+//     return 0;
+// }
