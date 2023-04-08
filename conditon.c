@@ -65,21 +65,59 @@
 
 // -----------
 
+// #include<stdio.h>
+// int main()
+// {
+//     int n,rem;
+//     scanf("%d",&n);
+
+//     while (n>0)
+//     {
+//         rem = n%10;
+//         n /=10;
+//     }
+
+//     if(rem%2==0) printf("EVEN\n");
+//     else printf("ODD\n");
+    
+
+//     return 0;
+// }
+
+// M. Capital or Small or Digit
+
+// #include<stdio.h>
+// int main()
+// {
+//     char ch;
+//     scanf("%c",&ch);
+
+//     if(ch>='0' && ch <='9') printf("IS DIGIT\n");//48-57 ascii
+//     else{
+//         printf("ALPHA\n");
+//         if(ch>='a' && ch<='z') printf("IS SMALL\n");//97-122
+//         else if(ch>='A' && ch <='Z') printf("IS CAPITAL\n");//65-90
+//     }
+    
+
+//     return 0;
+// }
+
+//K. Max and Min
 #include<stdio.h>
 int main()
 {
-    int n,rem;
-    scanf("%d",&n);
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
 
-    while (n>0)
-    {
-        rem = n%10;
-        n /=10;
-    }
+    if(a<b && a<c) printf("%d ",a);
+    else if(b<c) printf("%d ",b);
+    else printf("%d ",c);
 
-    if(rem%2==0) printf("EVEN\n");
-    else printf("ODD\n");
     
+    if(a>b && a>c) printf("%d\n",a);
+    else if(b>c) printf("%d\n",b);
+    else printf("%d\n",c);
 
     return 0;
 }
